@@ -44,12 +44,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".Maps"
-            android:label="@string/title_activity_maps" />
         <activity android:name=".UserOrProfessionalActivity" />
         <activity android:name=".UserRegister" />
-        <activity android:name=".ProfessionalRegister"></activity>
+        <activity android:name=".ProfessionalRegister" />
+        <activity android:name=".ShowProfessionals"></activity>
     </application>
 
 </manifest>

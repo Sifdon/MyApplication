@@ -40,5 +40,10 @@ public class UserOrProfessionalActivity extends AppCompatActivity implements Vie
             startActivity(intent);
             finish();
         }
+        if(v==userButton){
+            Intent intent = new Intent(UserOrProfessionalActivity.this, UserRegister.class);
+            startActivity(intent);
+            finish();
+        }
     }
 }
