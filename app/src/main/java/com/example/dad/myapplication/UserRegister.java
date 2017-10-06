@@ -68,7 +68,7 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
 
         firebaseAuth = FirebaseAuth.getInstance();//initilize firebase auth instance
         mDatabase = FirebaseDatabase.getInstance().getReference();//firebase database reference
-    }
+    }//end oncreate
 
 
 
@@ -81,7 +81,7 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
             registerUser();
         }
 
-    }
+    }//end onClick
 
 
     //create account, add to database
@@ -155,6 +155,6 @@ public class UserRegister extends AppCompatActivity implements View.OnClickListe
                     });
         }
 
-    }
+    }//end register user
 
 }
