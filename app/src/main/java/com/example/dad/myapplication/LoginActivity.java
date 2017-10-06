@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-
+//yoyoyo
     private Button registerButton;//Register Button
     private Button signInButton;//Sign in Button
     private EditText editTextEmail;//email field
